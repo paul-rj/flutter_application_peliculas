@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461254961197",
+    "project_id": "repositorio-peliculas",
+    "storage_bucket": "repositorio-peliculas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461254961197:android:4598e4d9721d133bd8f0a4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_peliculas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4OKgTJcP9DfBAEJU9ZloOEnpSVVZ_2YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
