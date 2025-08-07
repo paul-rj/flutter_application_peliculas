@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_application_peliculas/views/movies/MovieCatalogView.dart';
 import 'firebase_options.dart';
 
 import 'views/auth/login_view.dart';
@@ -34,6 +35,8 @@ class MyApp extends StatelessWidget {
         '/home': (_) => const HomeView(),
         '/movies': (_) => const MovieListView(),
         '/movie-form': (_) => const MovieFormView(),
+        '/catalogo': (_) => const MovieCatalogView(),
+
       },
     );
   }

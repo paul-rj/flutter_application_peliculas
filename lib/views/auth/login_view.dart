@@ -88,7 +88,7 @@ class LoginView extends StatelessWidget {
       ),
     );
   }
-
+//separar en widgets para mejorar la legibilidad
   Widget _buildTextField(TextEditingController controller, String label, IconData icon, TextInputType? keyboardType, {bool isPassword = false}) {
     return Container(
       decoration: BoxDecoration(
@@ -110,7 +110,7 @@ class LoginView extends StatelessWidget {
       ),
     );
   }
-
+//separar en widgets para mejorar la legibilidad
   Widget _buildGradientButton(String text, VoidCallback onPressed) {
     return Container(
       width: double.infinity,
